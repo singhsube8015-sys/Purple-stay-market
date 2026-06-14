@@ -1,0 +1,8 @@
+body{font-family:Arial;margin:0;background:linear-gradient(135deg,#6a0dad,#111);color:white}
+header{padding:20px;display:flex;justify-content:space-between}
+nav a{color:white;margin:0 10px;text-decoration:none}
+.hero{text-align:center;padding:60px 20px}
+.products{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;padding:20px}
+.card{background:white;color:black;padding:20px;border-radius:12px;width:220px}
+button{padding:10px}
+.cart{padding:20px}
