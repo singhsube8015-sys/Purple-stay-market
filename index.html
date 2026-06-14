@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Purple Stay Market</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Purple Stay Market</h1>
+<nav>
+<a href="#">Home</a><a href="#products">Shop</a><a href="#contact">Contact</a>
+</nav>
+</header>
+<section class="hero">
+<h2>BTS & Stray Kids Inspired Store</h2>
+<p>Photocard Holders, Mystery Boxes & Gift Hampers</p>
+</section>
+<section id="products" class="products">
+<div class="card"><h3>Photocard Holder</h3><p>₹399</p><button onclick="addToCart('Photocard Holder',399)">Add to Cart</button></div>
+<div class="card"><h3>Mystery Box</h3><p>₹999</p><button onclick="addToCart('Mystery Box',999)">Add to Cart</button></div>
+<div class="card"><h3>Gift Hamper</h3><p>₹799</p><button onclick="addToCart('Gift Hamper',799)">Add to Cart</button></div>
+</section>
+<section class="cart">
+<h2>Cart</h2>
+<ul id="cart"></ul>
+</section>
+<section id="contact">
+<h2>Payments</h2>
+<p>UPI • Razorpay • PayPal (integration placeholders)</p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
